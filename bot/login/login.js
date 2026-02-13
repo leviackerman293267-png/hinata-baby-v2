@@ -1,5 +1,5 @@
 // set bash title
-process.stdout.write("HINATA BOT");
+process.stdout.write("MahMUD 🪽");
 const defaultRequire = require;
 
 function decode(text) {
@@ -99,7 +99,7 @@ for (const text of title) {
 	const textColor = gradient("#FA8BFF", "#2BD2FF", "#2BFF88")(text);
 	centerText(textColor, text.length);
 }
-let subTitle = `GoatBot V2 @${currentVersion}- A simple Bot chat messenger use personal account`;
+let subTitle = `Version @${currentVersion}- A simple Bot chat messenger use personal account`;
 const subTitleArray = [];
 if (subTitle.length > maxWidth) {
 	while (subTitle.length > maxWidth) {
@@ -113,7 +113,6 @@ if (subTitle.length > maxWidth) {
 else {
 	subTitleArray.push(subTitle);
 }
-const author = ("Created by NTKhang with ♡");
 const modified = ("Modified & Fca fix by MahMUD");
 const srcUrl = ("Source code: https://github.com/ntkhang03/Goat-Bot-V2");
 const fakeRelease = ("ALL VERSIONS NOT RELEASED HERE ARE FAKE");
@@ -121,7 +120,6 @@ for (const t of subTitleArray) {
 	const textColor2 = gradient("#9F98E8", "#AFF6CF")(t);
 	centerText(textColor2, t.length);
 }
-centerText(gradient("#9F98E8", "#AFF6CF")(author), author.length);
 centerText(gradient("#9F98E8", "#AFF6CF")(modified), modified.length);
 centerText(gradient("#9F98E8", "#AFF6CF")(srcUrl), srcUrl.length);
 centerText(gradient("#f5af19", "#f12711")(fakeRelease), fakeRelease.length);
