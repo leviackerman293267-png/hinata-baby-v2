@@ -81,7 +81,7 @@ const titles = [
 		"G O A T B O T  V 2 @" + currentVersion
 	],
 	[
-		"GOATBOT V2"
+		"Fca - Modified & Fca fix by MahMUD"
 	]
 ];
 const maxWidth = process.stdout.columns;
@@ -99,7 +99,7 @@ for (const text of title) {
 	const textColor = gradient("#FA8BFF", "#2BD2FF", "#2BFF88")(text);
 	centerText(textColor, text.length);
 }
-let subTitle = `GoatBot V2@${currentVersion}- A simple Bot chat messenger use personal account`;
+let subTitle = `GoatBot V2 @${currentVersion}- A simple Bot chat messenger use personal account`;
 const subTitleArray = [];
 if (subTitle.length > maxWidth) {
 	while (subTitle.length > maxWidth) {
@@ -114,7 +114,6 @@ else {
 	subTitleArray.push(subTitle);
 }
 const author = ("Created by NTKhang with ♡");
-const modified = ("Modified & Fca fix by MahMUD");
 const srcUrl = ("Source code: https://github.com/ntkhang03/Goat-Bot-V2");
 const fakeRelease = ("ALL VERSIONS NOT RELEASED HERE ARE FAKE");
 for (const t of subTitleArray) {
