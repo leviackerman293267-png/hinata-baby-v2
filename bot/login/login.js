@@ -81,7 +81,7 @@ const titles = [
 		"G O A T B O T  V 2 @" + currentVersion
 	],
 	[
-		"Fca - Modified & Fca fix by MahMUD"
+		""
 	]
 ];
 const maxWidth = process.stdout.columns;
@@ -114,6 +114,7 @@ else {
 	subTitleArray.push(subTitle);
 }
 const author = ("Created by NTKhang with ♡");
+const modified = ("Modified & Fca fix by MahMUD");
 const srcUrl = ("Source code: https://github.com/ntkhang03/Goat-Bot-V2");
 const fakeRelease = ("ALL VERSIONS NOT RELEASED HERE ARE FAKE");
 for (const t of subTitleArray) {
@@ -121,6 +122,7 @@ for (const t of subTitleArray) {
 	centerText(textColor2, t.length);
 }
 centerText(gradient("#9F98E8", "#AFF6CF")(author), author.length);
+centerText(gradient("#9F98E8", "#AFF6CF")(modified), modified.length);
 centerText(gradient("#9F98E8", "#AFF6CF")(srcUrl), srcUrl.length);
 centerText(gradient("#f5af19", "#f12711")(fakeRelease), fakeRelease.length);
 
