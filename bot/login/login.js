@@ -99,7 +99,7 @@ for (const text of title) {
 	const textColor = gradient("#FA8BFF", "#2BD2FF", "#2BFF88")(text);
 	centerText(textColor, text.length);
 }
-let subTitle = `Version @${currentVersion}- A simple Bot chat messenger use personal account`;
+let subTitle = `• Version @${currentVersion}`;
 const subTitleArray = [];
 if (subTitle.length > maxWidth) {
 	while (subTitle.length > maxWidth) {
@@ -113,8 +113,8 @@ if (subTitle.length > maxWidth) {
 else {
 	subTitleArray.push(subTitle);
 }
-const modified = ("Modified & Fca fix by MahMUD");
-const srcUrl = ("Source code: https://github.com/ntkhang03/Goat-Bot-V2");
+const modified = ("• Modified & Fca fix by MahMUD");
+const srcUrl = ("• Source code: https://github.com/ntkhang03/Goat-Bot-V2");
 const fakeRelease = ("ALL VERSIONS NOT RELEASED HERE ARE FAKE");
 for (const t of subTitleArray) {
 	const textColor2 = gradient("#9F98E8", "#AFF6CF")(t);
